@@ -1,0 +1,17 @@
+name: 'Build Number XYZ'
+description: 'Manage build numbers across machines, clusters, or operating systems using buildnumber.xyz'
+author: '@tternes'
+inputs:
+  build_id:
+    description: 'Build Identifier'
+    required: true
+  increment:
+    description: 'Increment the current build number instead of just fetching it'
+    required: false
+    default: 'false'
+outputs:
+  current_build:
+    description: 'The current build number'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'

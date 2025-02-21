@@ -1,0 +1,19 @@
+{
+  "name": "github-action-buildnumber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@types/node": "^22.13.4",
+    "@vercel/ncc": "^0.38.3",
+    "axios": "^1.7.9",
+    "typescript": "^5.7.3"
+  }
+}
